@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
 .bg-Form{
     box-sizing: border-box;
     position: absolute;
@@ -126,3 +127,5 @@ left: 0px;
 top: 47%;
 
     }
+
+  

@@ -1,12 +1,15 @@
-
-
- class Login extends React.Component{
+class Login extends React.Component{
     render (){
        
         return(
             <div >
         <link rel="stylesheet" href="./css/login.css"></link>
-     <script src=""></script>
+        <link rel="stylesheet" href="./css/headerLogin.css"></link>
+        <div className="bgHeader">
+           <img src="img/Logo2.png" class="Logo2" ></img>
+          
+        </div>
+    
                     <div className="bg-Form"> </div>
             <img src="img/Logo1.png" class="Logo1" ></img>
                     <p class="welcome">BIENVENUE CHEZ BARID AL-MAGHRIB DISTRIBUTION  ! <b class="login">CONNECTER-VOUS</b> </p>

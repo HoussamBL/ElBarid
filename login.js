@@ -7,67 +7,72 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var Login = function (_React$Component) {
-        _inherits(Login, _React$Component);
+    _inherits(Login, _React$Component);
 
-        function Login() {
-                _classCallCheck(this, Login);
+    function Login() {
+        _classCallCheck(this, Login);
 
-                return _possibleConstructorReturn(this, (Login.__proto__ || Object.getPrototypeOf(Login)).apply(this, arguments));
+        return _possibleConstructorReturn(this, (Login.__proto__ || Object.getPrototypeOf(Login)).apply(this, arguments));
+    }
+
+    _createClass(Login, [{
+        key: "render",
+        value: function render() {
+
+            return React.createElement(
+                "div",
+                null,
+                React.createElement("link", { rel: "stylesheet", href: "./css/login.css" }),
+                React.createElement("link", { rel: "stylesheet", href: "./css/headerLogin.css" }),
+                React.createElement(
+                    "div",
+                    { className: "bgHeader" },
+                    React.createElement("img", { src: "img/Logo2.png", "class": "Logo2" })
+                ),
+                React.createElement(
+                    "div",
+                    { className: "bg-Form" },
+                    " "
+                ),
+                React.createElement("img", { src: "img/Logo1.png", "class": "Logo1" }),
+                React.createElement(
+                    "p",
+                    { "class": "welcome" },
+                    "BIENVENUE CHEZ BARID AL-MAGHRIB DISTRIBUTION  ! ",
+                    React.createElement(
+                        "b",
+                        { "class": "login" },
+                        "CONNECTER-VOUS"
+                    ),
+                    " "
+                ),
+                React.createElement("div", { "class": "vl" }),
+                React.createElement(
+                    "form",
+                    { action: "login.php", method: "post" },
+                    React.createElement(
+                        "label",
+                        { "class": "fuser" },
+                        "Nom d'utilisateur :"
+                    ),
+                    React.createElement("br", null),
+                    React.createElement("input", { type: "text", id: "fuser", name: "username" }),
+                    React.createElement("br", null),
+                    React.createElement(
+                        "label",
+                        { "class": "fmdp" },
+                        "Mot de passe :"
+                    ),
+                    React.createElement("br", null),
+                    React.createElement("input", { type: "password", id: "fmdp", name: "password" }),
+                    React.createElement("br", null),
+                    React.createElement("input", { type: "submit", onclick: "myFunction()", id: "button-login", value: "Se connecter" })
+                )
+            );
         }
+    }]);
 
-        _createClass(Login, [{
-                key: "render",
-                value: function render() {
-
-                        return React.createElement(
-                                "div",
-                                null,
-                                React.createElement("link", { rel: "stylesheet", href: "./css/login.css" }),
-                                React.createElement("script", { src: "" }),
-                                React.createElement(
-                                        "div",
-                                        { className: "bg-Form" },
-                                        " "
-                                ),
-                                React.createElement("img", { src: "img/Logo1.png", "class": "Logo1" }),
-                                React.createElement(
-                                        "p",
-                                        { "class": "welcome" },
-                                        "BIENVENUE CHEZ BARID AL-MAGHRIB DISTRIBUTION  ! ",
-                                        React.createElement(
-                                                "b",
-                                                { "class": "login" },
-                                                "CONNECTER-VOUS"
-                                        ),
-                                        " "
-                                ),
-                                React.createElement("div", { "class": "vl" }),
-                                React.createElement(
-                                        "form",
-                                        { action: "login.php", method: "post" },
-                                        React.createElement(
-                                                "label",
-                                                { "class": "fuser" },
-                                                "Nom d'utilisateur :"
-                                        ),
-                                        React.createElement("br", null),
-                                        React.createElement("input", { type: "text", id: "fuser", name: "username" }),
-                                        React.createElement("br", null),
-                                        React.createElement(
-                                                "label",
-                                                { "class": "fmdp" },
-                                                "Mot de passe :"
-                                        ),
-                                        React.createElement("br", null),
-                                        React.createElement("input", { type: "password", id: "fmdp", name: "password" }),
-                                        React.createElement("br", null),
-                                        React.createElement("input", { type: "submit", onclick: "myFunction()", id: "button-login", value: "Se connecter" })
-                                )
-                        );
-                }
-        }]);
-
-        return Login;
+    return Login;
 }(React.Component);
 
 var domContainer = document.querySelector("#login_react");
