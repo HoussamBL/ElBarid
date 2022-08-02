@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+
+
+
+
+
+#img{grid-area: img; height: 4px;}
+#nom-description{grid-area: nom-description; width: 20rem; font-size: 14px;}
+#description{grid-area: description;}
+#qtee{grid-area: qtee; }
+#delete{grid-area: delete;}
+#prix{grid-area: prix; font-weight: 600;
+font-size: 20px;}
+
+.grid-order-container{
+    display: inline-grid;
+    grid-template-areas: 
+    'img nom-description nom-description prix'
+    'img description description prix'
+    'img qtee delete prix'
+    ;
+    column-gap:  3Rem;
+    
+    padding: 2rem;
+    height: 3.5rem;
+    
+}

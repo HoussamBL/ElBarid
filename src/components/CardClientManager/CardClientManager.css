@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+.cardClient{
+    box-sizing: border-box;
+    
+    
+    width: 18rem;
+    height: 150px;
+    
+    top: 17rem;
+    
+    background: #FFFFFF;
+    border: 2px solid ;
+    box-shadow: 0px 5px 5px rgba(233, 233, 231, 0.856);
+    border-radius: 10px;
+    border-color: #0873B8;
+   
+
+    font-family:   'Signika', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 1rem;
+
+color: #000000;
+
+      }
+
+      #name { grid-area: name; font-weight: 600; }
+      #id { grid-area: id ; text-align: right; font-weight: 600; }
+#address { grid-area: address; }
+      #tel { grid-area: tel; }
+     #other { grid-area: other; }
+      #reviewAction{grid-area: select; size: 10%; margin-left: 20%; background-color: inherit
+        ;}
+        #fab{grid-area: fab;}
+        
+      .grid-card {
+        display: grid;
+        grid-template-areas:
+          'name id'
+          'address fab'
+          'tel select';
+        gap: 2rem;
+        
+        padding: 15px ;
+      }
+      
+.orderDone{background-color: #08B82F!important;color: #ffffff;}
+.noOrder{background-color: #F01616;color: #ffffff;}
+.enCours{background-color: #F07F16;color: #ffffff;}
+
+
+    
+    
