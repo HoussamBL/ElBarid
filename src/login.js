@@ -2,7 +2,7 @@ class Login extends React.Component{
     render (){
        
         return(
-            <div >
+    <div>
         <link rel="stylesheet" href="./css/login.css"></link>
         <link rel="stylesheet" href="./css/headerLogin.css"></link>
         <div className="bgHeader">
@@ -26,7 +26,7 @@ class Login extends React.Component{
                     <input type="submit" onclick="myFunction()" id="button-login" value ="Se connecter" ></input>
                    
                 </form>
-                </div>
+    </div>
 
         )
 

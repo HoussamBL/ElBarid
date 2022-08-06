@@ -35,7 +35,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
 			$row = pg_fetch_assoc($result);
             if ($row['client_username'] === $uname && $row['client_mdp'] === $pass) {
  
-            	header("Location: valider.php");
+            	header("Location: home1.php");
 		        exit();
             }else{
 				header("Location: index.php?error=Incorect User name or password");

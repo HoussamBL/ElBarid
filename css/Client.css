@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200&display=swap');
+@import url('https://css.gg/log-out.css');
+.bg-Client{
+width: 90%;
+height: 100%;
+padding-left: 6rem;
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+p.View{ 
+    
+width: 330px;
+height: 79px;
+padding-left: 2rem;
+margin-top: 3rem;
+font-family:   'Catamaran', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 35px;
+line-height: 39px;
+
+color: #000000;
+}
+
+
+
+#searchClient{
+ 
+    width: 200px;
+    height: 25px;
+   
+    margin-right: 2rem ;
+    margin-top: 3.25rem;
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-family:  'Catamaran', sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+}
+
+.test{
+    display: flex;
+}
+
+
+  
+  .container {
+    padding: 2px 16px;
+  }
+
+ 
+
+.grid-client{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 3rem;
+    padding-left: 5rem;
+    
+}
+
+
+.test{
+  justify-content: space-between;
+}
