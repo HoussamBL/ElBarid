@@ -37,4 +37,4 @@ class Client extends React.Component{
 
 
 const domContainer = document.querySelector("#clientf_react");
-  ReactDOM.render(<Client />, domContainer);
+ ReactDOM.render(<Client />, domContainer);
