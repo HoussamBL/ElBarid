@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+img.product2{
+   
+  width: 208px;
+  height: 208px;
+  
+  
+  }
+
+#product1 { 
+  grid-area: product1;
+  margin-left: auto;
+  margin-right: auto; 
+
+}
+
+
+#nameProduct { 
+  grid-area: nameProduct ; 
+  font-family: 'Signika', sans-serif; 
+  font-style :#000000;
+  font-size: 15px; 
+  margin-top: 1rem;
+}
+
+#qte { 
+  grid-area: qte; 
+  width: 75%; 
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 0.5rem; 
+}
+
+#descriptionProduct { 
+  grid-area: descriptionProduct; 
+  font-family: 'Signika', sans-serif;  
+}
+
+#price { 
+  grid-area: price; 
+  font-family: 'Signika', sans-serif;
+  font-weight: 600;
+}
+
+#button-add-cart {
+  grid-area :button-add-cart; 
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: #0873B8; 
+  border-radius: 8px; 
+  border: none; 
+  color: white; 
+  font-family: 'Signika', sans-serif; 
+  height: 2rem; 
+  width: 12rem ;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.grid-product{
+    display: inline-grid;
+    grid-template-areas:
+          'product1 product1'
+          'nameProduct qte'
+          'descriptionProduct descriptionProduct'
+          'price price'
+          'button-add-cart button-add-cart'; 
+    gap: 0.25rem;
+    padding: 1rem;
+}
+
+
